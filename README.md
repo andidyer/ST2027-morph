@@ -38,4 +38,5 @@ Paper submission instructions will be the same as for the [workshop](https://sig
 
 ## Acknowledgment
 
+This shared task is supported by the CrossLing project, Cross-Linguistic Analysis of the Internal Structure of Words, LL2615, funded by the Ministry of Education, Youth and Sports of the Czech Republic.
 
