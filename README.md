@@ -76,11 +76,13 @@ Jahresabschlüsse   #jahr+es+ab+#schlüss+e     German
 đàn ông           #đàn +#ông                  Vietnamese
 </pre>
 
-For languages with non-concatenative morphology, the annotation is based on IPA transcriptions. Discontinuous parts of a morpheme are enclosed in brackets to indicate that they belong together. Different bracket types are assigned in order of their first occurrence in the word: () for the first discontinuous morph, [] for the second, {} for the third, and <> for the fourth; see the following example:
+For languages with non-concatenative morphology, the annotation is based on IPA transcriptions. Discontinuous parts of a morpheme are enclosed in brackets to indicate that they belong together. Different bracket types are assigned in order of their first occurrence in the word: () for the first discontinuous morph, [] for the second, {} for the third, and <> for the fourth; see the following example
+ with the transcription of an Arabic expression <p dir="rtl">الجَنَاح </p>
 
 <pre>
-Word form       IPA transcription      Annotation                Language 
-...           ʔal(#dʒ)anaː(ħ)i         ʔal+(#dʒ)[a](n)[aː](ħ)+i   Arabic
+IPA transcription      Annotation                 Language
+----------------------------------------------------------
+ʔal(#dʒ)anaː(ħ)i        ʔal+(#dʒ)[a](n)[aː](ħ)+i    Arabic
 </pre>
 
 Further details on morph segmentation and root identification are provided in the annotation guidelines used to prepare the development and evaluation data: [MŠ: SHOULD WE DISPLAY THEM ON THE PROJECT’S WEBSITE?]
