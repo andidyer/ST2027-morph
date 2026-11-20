@@ -2,19 +2,19 @@
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Important Dates](#important-dates)
-3. [Task Description](#task-description)
-4. [Data](#data)
-5. [Evaluation Metrics](#evaluation-metrics)
-6. [Baselines](#baselines)
-7. [Registration](#registration)
-8. [CodaBench Submission Instructions](#codabench-submission-instructions)
-9. [Submission of System Description Papers](#submission-of-system-description-papers)
-10. [Ethical and Other Remarks](#ethical-and-other-remarks)
-11. [Task Organisers](#task-organisers)
-12. [Acknowledgments](#acknowledgments)
-13. [Quick Links](#quick-links)
+1. [Introduction](#user-content-1-introduction)
+2. [Important Dates](#user-content-2-important-dates)
+3. [Task Description](#user-content-3-task-description)
+4. [Data](#user-content-4-data)
+5. [Evaluation Metrics](#user-content-5-evaluation-metrics)
+6. [Baselines](#user-content-6-baselines)
+7. [Registration](#user-content-7-registration)
+8. [CodaBench Submission Instructions](#user-content-8-codabench-submission-instructions)
+9. [Submission of System Description Papers](#user-content-9-submission-of-system-description-papers)
+10. [Ethical and Other Remarks](#user-content-10-ethical-and-other-remarks)
+11. [Task Organisers](#user-content-11-task-organisers)
+12. [Acknowledgments](#user-content-12-acknowledgments)
+13. [Quick Links](#user-content-13-quick-links)
 
 ## 1. Introduction
 
