@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-1. [Introduction]
+1. [Introduction](#introduction)
 2. [Important Dates](#important-dates)
 3. [Task Description](#task-description)
 4. [Data](#data)
@@ -111,6 +111,7 @@ The development and evaluation datasets were created by selecting a sample of 2,
 For each language, all 2,000 word forms were then manually annotated by a language expert (mostly a native speaker), following the annotation guidelines mentioned above and paying particular attention to annotation consistency. The annotated items were subsequently randomly divided into two equally sized subsets: 1,000 word forms for the development phase, in which participants will have access to the manual annotations, and 1,000 word forms for the evaluation phase, in which the manual annotations will be kept hidden and used internally by CodaBench solely to evaluate the participants' performance.
 
 The situation is quite different when it comes to the training data. For training purposes, we use diverse data from existing morphological segmentation resources, including both traditional lexicographic works originally published in print as well as morphological datasets developed for NLP. These resources differ in several respects, such as 
+
 * the number of segmented entries,
 * the criteria used to select entries (e.g., whether they include only citation forms or also other inflected forms, and whether they cover all or only selected parts of speech),
 * the completeness and granularity of the annotations (in some cases, only the inflectional ending is separated from the rest of the word, while in others, the segmentation is more fine-grained),
@@ -119,7 +120,7 @@ The situation is quite different when it comes to the training data. For trainin
 * whether the original writing system is used, or a romanized transliteration, or a transcription,
 * and, last but not least, the linguistic quality of the segmentation.
 
-Data from all these sources have been technically converted into a common file format, drawing in particular on our previous experience and expertise gained through the UniSegments project. However, we have not been able to eliminate all the differences in approach among the individual primary sources, and, more importantly, the discrepancies between their segmentation conventions and our own approach to morphological segmentation petrified in the development and evaluation data. Hence, participants should keep this heterogeneity in mind, particularly if they develop a trainable segmentation system, as e.g. the optimal training method and/or optimal hyperparameter settings may substantially vary for different types of training datasets.
+For the purposes of this shared task, data from all these sources have been technically converted into a common file format, drawing in particular on our previous expertise gained through the UniSegments project. However, we have not been able to eliminate all the differences in approach among the individual primary sources, and, more importantly, the discrepancies between their segmentation conventions and our own approach to morphological segmentation petrified in the development and evaluation data. Hence, participants should keep this heterogeneity in mind, particularly if they develop a trainable segmentation system, as e.g. the optimal training method and/or optimal hyperparameter settings may substantially vary for different types of training datasets.
 
 More technical information, such as file format desctription, will appear here soon.
 
