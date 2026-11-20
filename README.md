@@ -26,7 +26,7 @@ The current CodaBench-powered shared task draws on earlier efforts, such as Morp
 1. **Diversity of included languages.** The task covers more than 30 typologically, genealogically, and geographically diverse languages, with both large and small speaker populations, exposed to varying degrees of language contact.
 2. **Harmonised evaluation data.** Newly annotated development and test data follow a common sampling method and unified annotation guidelines, enabling meaningful comparisons across languages.
 3. **Heterogeneous training data.** Training data come from already existing resources and vary considerably in size, quality, lexical material selection, and annotation schema, reflecting the present-day reality of lexicographic resources.
-4. **Integration with Universal Dependencies (UD).** Word forms to be segmented are provided with sentence contexts drawn from UD treebanks as well as with morphological categories following the Universal Features schema.
+4. **Linking to Universal Dependencies (UD).** Word forms to be segmented are provided with sentence contexts drawn from UD treebanks as well as with morphological categories following the Universal Features schema.
 5. **Written as well as spoken form of language.** For most languages, the shared task uses written word forms. For a few languages, however, phonetic transcriptions are used, because the existing writing system is not well suited to morphological segmentation.
 6. **Variety of writing systems.** The shared task covers all major types of writing systems, including alphabetic, abjad, abugida, syllabic, and logographic systems.
 7. **Handling non-concatenative morphology.** The shared task includes languages with highly non-concatenative morphology.
@@ -108,7 +108,7 @@ For each language included in the shared task, we provide three datasets: traini
 
 The development and evaluation datasets were created by selecting a sample of 2,000 word forms for each language using a uniform stratified sampling procedure designed to cover both frequent and rare words in the corpus, with the intermediate frequency range divided into bins using exponentially increasing intervals. Each word form was supplemented with information from the UD treebanks, including its lemma, Universal Part-of-Speech (UPOS) tag, Universal Features, and an example of its use in a sentence.
 
-For each language, all 2,000 word forms were then manually annotated by a language expert (mostly a native speaker), following the annotation guidelines mentioned above and paying particular attention to annotation consistency. The annotated items were subsequently randomly divided into two equally sized subsets: 1,000 word forms for the development phase, in which participants will have access to the manual annotations, and 1,000 word forms for the evaluation phase, in which the manual annotations will be kept hidden and used internally by CodaBench solely to evaluate the participants' performance.
+For each language, all 2,000 word forms were then manually annotated by a language expert, following the annotation guidelines mentioned above and paying particular attention to annotation consistency. The annotated items were subsequently randomly divided into two equally sized subsets: 1,000 word forms for the development phase, in which participants will have access to the manual annotations, and 1,000 word forms for the evaluation phase, in which the manual annotations will be kept hidden and used internally by CodaBench solely to evaluate the participants' performance.
 
 The situation is quite different when it comes to the training data. For training purposes, we use diverse data from existing morphological segmentation resources, including both traditional lexicographic works originally published in print as well as morphological datasets developed for NLP. These resources differ in several respects, such as 
 
@@ -126,12 +126,8 @@ More technical information, such as file format desctription, will appear here s
 
 References:
 
-* Žabokrtský, Zdeněk, et al. "Towards universal segmentations: UniSegments 1.0." Proceedings of the Thirteenth Language Resources and Evaluation Conference. 2022.
-
-* John, Vojtěch, et al.  Universal Segmentations 1.5 (UniSegments 1.5). http://hdl.handle.net/11234/1-6130
-189 LINDAT/CLARIAH-CZ digital library at the Institute of Formal and Applied Linguistics (ÚFAL),
-Faculty of Mathematics and Physics, Charles
-University, Prague. 2026.
+* Zdeněk Žabokrtský et al. 2022. Towards Universal Segmentations: UniSegments 1.0. In Proceedings of the Thirteenth Language Resources and Evaluation Conference. https://aclanthology.org/2022.lrec-1.122/
+* Vojtěch John et al. 2026. Universal Segmentations 1.5 (UniSegments 1.5). LINDAT/CLARIAH-CZ digital library at the Institute of Formal and Applied Linguistics, Faculty of Mathematics and Physics, Charles University. http://hdl.handle.net/11234/1-6130
 
 
 ## 5. Evaluation Metrics
@@ -151,8 +147,8 @@ Before the beginning of the development phrase, we will release two baseline sys
 
 References:
 
-* Michael Ginn, Lindia Tjuatja, Enora Rice, Ali Marashian, Maria Valentini, Jasmine Xu, Graham Neubig, and Alexis Palmer. 2026. Massively multi-lingual joint segmentation and glossing. In Proceed-ings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 35806–35820, San Diego, California, United States. Association for Computational Linguistics
-* Vojtěch John and Zdeněk Žabokrtský. 2026. LLMs as linguistic experts: The case of morphological segmentation. In International Conference on Text, Speech, and Dialogue, pages 93–104. Springer.
+* Michael Ginn et al. 2026. Massively multi-lingual joint segmentation and glossing. In Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). https://aclanthology.org/2026.acl-long.1657/
+* Vojtěch John and Zdeněk Žabokrtský. 2026. LLMs as linguistic experts: The case of morphological segmentation. In Text, Speech, and Dialogue. Springer. https://link.springer.com/chapter/10.1007/978-3-032-37249-9_8
 
 
 ## 7. Registration
@@ -160,8 +156,7 @@ References:
 
 If you are potentially interested in participating in this shared task, please fill out the [**registration form**](https://docs.google.com/forms/d/e/1FAIpQLSdHc1G7ttdoITBjntyM13b2I7ASr9BRnavjIBvcLmdErFYSRw/viewform?usp=dialog) as soon as possible. We strongly recommend that at least one person from your participating team registers so that you don't miss any updates regarding the shared task.
 
-For any questions about the shared task, Please contact [Priya Rani](mailto:rani@ufal.mff.cuni.cz).
-
+For any questions about the shared task, please contact [Zdeněk Žabokrtský](mailto:zabokrtsky@ufal.mff.cuni.cz).
 
 
 ## 8. CodaBench Submission Instructions
@@ -207,12 +202,12 @@ The training and development data used in this shared task will remain publicly 
 * **Aleš Papáček**, Charles University
 * **Enora Rice**, University of Colorado
 
-Please contact [Priya Rani](mailto:rani@ufal.mff.cuni.cz) if you have any questions regarding the shared task.
+Please contact [Zdeněk Žabokrtský](mailto:zabokrtsky@ufal.mff.cuni.cz) if you have any questions regarding the shared task.
 
 
 ## 12. Acknowledgments
 
-This shared task is supported by the CrossLing project, Cross-Linguistic Analysis of the Internal Structure of Words, LL2615, funded by the Ministry of Education, Youth and Sports of the Czech Republic.
+This shared task is supported by the [CrossLing project](https://ufal.mff.cuni.cz/grants/crossling), Cross-Linguistic Analysis of the Internal Structure of Words, LL2615, funded by the Ministry of Education, Youth and Sports of the Czech Republic.
 
 We would also like to thank all the language experts who contributed to the annotation of the new evaluation data, as well as the authors of previously published segmentation datasets, without which we would not have had sufficient training data.
 
