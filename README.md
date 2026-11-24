@@ -195,7 +195,7 @@ The training and development data used in this shared task will remain publicly 
 * **Magda Ševčíková**, Charles University
 * **Zdeněk Žabokrtský**, Charles University
 * **Priya Rani**, Charles University
-* **Andrew Dryer**, Charles University
+* **Andrew Dyer**, Charles University
 * **Hana Hledíková**, Charles University
 * **Vojtěch John**, Charles University
 * **Anja Nedoluzhko**, Charles University
